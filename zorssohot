@@ -1,0 +1,7 @@
+local args = {
+    [1] = "Standard Case",
+    [2] = 1,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.PurchaseItem:InvokeServer(unpack(args))
